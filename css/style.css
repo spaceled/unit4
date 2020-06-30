@@ -5,25 +5,94 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
 }
-.name-highlight {
+a {
+    text-decoration: none;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+    color: dimgray;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.orange-highlight {
     color: orange;
 }
 .first-section {
-
+    margin-top: 20px;
+    padding: 20px;
 }
-.div-top-left {
-
+.hire-btn {
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.float-left {
+    float:left;
+}
+.div-top-left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 .div-top-right {
-
+    background-color: #ffad2c;
+    padding: 2px;
+    border-radius: 5%;
+    margin-top: 100px;
+    border-top: 10px solid #4971e0;
+}
+.second-section {
+    margin-top: 20px;
+    padding: 20px;
+}
+.div-mid-left {
+    background-color: orange;
+    padding: 2px;
+    border-radius: 5%;
 }
 .half-width {
     width: 40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img {
     width: 100%;
-    background-image: url("images/background1.png");
+    height: 350px;
+}
+.exp-head {
+    font-size: 70px;
+    text-align: center;
+}
+.spn-i {
+    color: red;
+}
+.last-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.card  {
+    box-shadow: gray 2px 2px 40px;
+    width: 40%;
+    height: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid orange;
+}
+footer {
+    background: black;
+    padding: 10px;
+    margin-top: 100px;
+}
+footer p{
+    text-align: center;
+}
+footer span {
+    color: red;
 }
